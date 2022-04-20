@@ -1,0 +1,853 @@
+<!DOCTYPE html>
+
+<html>
+<head>
+<title></title>
+<meta charset="utf-8"/>
+<meta content="width=device-width" name="viewport"/>
+<link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet" type="text/css"/>
+<style>
+		.bee-row,
+		.bee-row-content {
+			position: relative
+		}
+
+		.bee-form .bee-form-row .bee-field button {
+			font-family: inherit;
+			font-size: inherit
+		}
+
+		.bee-row-2 .bee-col-2 .bee-block-1,
+		body {
+			font-family: Lato, Tahoma, Verdana, Segoe, sans-serif
+		}
+
+		.bee-row-10 .bee-row-content,
+		.bee-row-12 .bee-row-content,
+		.bee-row-4 .bee-row-content,
+		.bee-row-9 .bee-row-content {
+			background-position: center top;
+			background-repeat: no-repeat;
+			color: #000
+		}
+
+		body {
+			background-color: #fff;
+			color: #000
+		}
+
+		.bee-row-14 .bee-col-3 .bee-block-1 li a,
+		.bee-row-2 .bee-col-2 .bee-block-1 li a,
+		a {
+			color: #000
+		}
+
+		* {
+			box-sizing: border-box
+		}
+
+		body,
+		h1,
+		p {
+			margin: 0
+		}
+
+		.bee-row-content {
+			max-width: 1440px;
+			margin: 0 auto;
+			display: flex
+		}
+
+		.bee-row-content.reverse,
+		.bee-row-content.reverse .bee-col {
+			-moz-transform: scale(1, -1);
+			-webkit-transform: scale(1, -1);
+			-o-transform: scale(1, -1);
+			-ms-transform: scale(1, -1);
+			transform: scale(1, -1)
+		}
+
+		.bee-row-content .bee-col-w1 {
+			flex-basis: 8%
+		}
+
+		.bee-row-content .bee-col-w2 {
+			flex-basis: 17%
+		}
+
+		.bee-row-content .bee-col-w3 {
+			flex-basis: 25%
+		}
+
+		.bee-row-content .bee-col-w4 {
+			flex-basis: 33%
+		}
+
+		.bee-row-content .bee-col-w5 {
+			flex-basis: 42%
+		}
+
+		.bee-row-content .bee-col-w6 {
+			flex-basis: 50%
+		}
+
+		.bee-row-content .bee-col-w7 {
+			flex-basis: 58%
+		}
+
+		.bee-row-12 .bee-col-1 .bee-block-4 div.label:not(.inline),
+		.bee-row-12 .bee-col-1 .bee-block-4 label:not(.inline),
+		.bee-row-content .bee-col-w12 {
+			flex-basis: 100%
+		}
+
+		.bee-icon .bee-icon-label-right a,
+		.bee-menu ul li a {
+			text-decoration: none
+		}
+
+		.bee-divider,
+		.bee-image {
+			overflow: auto
+		}
+
+		.bee-divider .center,
+		.bee-image .bee-center {
+			margin: 0 auto
+		}
+
+		.bee-row-11 .bee-col-1 .bee-block-2,
+		.bee-row-12 .bee-col-1 .bee-block-4 .bee-form-row:not(.bee-sidelabel) input:not([type=checkbox]):not([type=radio]),
+		.bee-row-6 .bee-col-1 .bee-block-1 {
+			width: 100%
+		}
+
+		.bee-form .bee-form-row .bee-field {
+			padding: 3px;
+			display: flex;
+			flex: 1;
+			flex-wrap: wrap;
+			align-items: center
+		}
+
+		.bee-row-4 .bee-col-1 .bee-block-1,
+		.bee-row-4 .bee-col-2 .bee-block-2,
+		.bee-row-4 .bee-col-3 .bee-block-1,
+		.bee-row-4 .bee-col-3 .bee-block-4,
+		.bee-row-4 .bee-col-4 .bee-block-2,
+		.bee-row-7 .bee-col-1 .bee-block-4,
+		.bee-row-9 .bee-col-3 .bee-block-1 {
+			padding-left: 20px;
+			padding-right: 20px;
+			width: 100%
+		}
+
+		.bee-form .bee-form-row .bee-field input:not([type=checkbox]):not([type=radio]),
+		.bee-form .bee-form-row .bee-field textarea {
+			flex-grow: 1;
+			font-family: inherit;
+			font-size: inherit
+		}
+
+		.bee-form .bee-form-row .bee-field .bee-button-container {
+			flex-grow: 1
+		}
+
+		.bee-form input[type=color] {
+			border: none;
+			height: 38px
+		}
+
+		.bee-form input[type=color]::-webkit-color-swatch-wrapper {
+			margin: 0;
+			padding: 2px
+		}
+
+		.bee-menu ul {
+			margin: 0;
+			padding: 0
+		}
+
+		.bee-form input[type=color]::-webkit-color-swatch {
+			margin: 0;
+			padding: 0
+		}
+
+		.bee-icon {
+			display: inline-block;
+			vertical-align: middle
+		}
+
+		.bee-icon .bee-icon-image {
+			display: inline-block;
+			vertical-align: middle;
+			margin-right: -4px
+		}
+
+		.bee-icon .bee-icon-label-right,
+		.bee-menu ul.bee-horizontal li {
+			display: inline-block
+		}
+
+		.bee-image img {
+			display: block;
+			width: 100%
+		}
+
+		.bee-menu ul {
+			list-style-type: none
+		}
+
+		.bee-text {
+			overflow-wrap: anywhere
+		}
+
+		.bee-row-1,
+		.bee-row-10,
+		.bee-row-11,
+		.bee-row-12,
+		.bee-row-13,
+		.bee-row-14,
+		.bee-row-15,
+		.bee-row-16,
+		.bee-row-2,
+		.bee-row-3,
+		.bee-row-4,
+		.bee-row-5,
+		.bee-row-6,
+		.bee-row-7,
+		.bee-row-8,
+		.bee-row-9 {
+			background-repeat: no-repeat
+		}
+
+		.bee-row-1 .bee-row-content,
+		.bee-row-11 .bee-row-content,
+		.bee-row-13 .bee-row-content,
+		.bee-row-14 .bee-row-content,
+		.bee-row-15 .bee-row-content,
+		.bee-row-16 .bee-row-content,
+		.bee-row-3 .bee-row-content,
+		.bee-row-5 .bee-row-content,
+		.bee-row-6 .bee-row-content,
+		.bee-row-7 .bee-row-content,
+		.bee-row-8 .bee-row-content {
+			background-repeat: no-repeat;
+			color: #000
+		}
+
+		.bee-row-2 .bee-row-content {
+			background-image: url('https://d1oco4z2z1fhwp.cloudfront.net/templates/default/5471/Line_div_1.png');
+			background-repeat: no-repeat;
+			color: #000
+		}
+
+		.bee-row-2 .bee-col-1 .bee-block-1 {
+			padding-bottom: 10px;
+			padding-top: 10px;
+			width: 100%
+		}
+
+		.bee-row-2 .bee-col-2 .bee-block-1 {
+			color: #000;
+			font-size: 18px;
+			text-align: center
+		}
+
+		.bee-row-2 .bee-col-4 .bee-block-1 {
+			padding-bottom: 20px;
+			padding-top: 20px;
+			width: 100%
+		}
+
+		.bee-row-4 .bee-col-3 .bee-block-1 {
+			text-align: center
+		}
+
+		.bee-row-12 .bee-col-1 .bee-block-3,
+		.bee-row-4 .bee-col-3 .bee-block-2,
+		.bee-row-4 .bee-col-3 .bee-block-3,
+		.bee-row-4 .bee-col-3 .bee-block-5,
+		.bee-row-6 .bee-col-3 .bee-block-1,
+		.bee-row-6 .bee-col-5 .bee-block-2,
+		.bee-row-7 .bee-col-1 .bee-block-2,
+		.bee-row-9 .bee-col-1 .bee-block-1,
+		.bee-row-9 .bee-col-1 .bee-block-5 {
+			padding: 10px 20px
+		}
+
+		.bee-row-6 .bee-col-3 .bee-block-3 {
+			padding-bottom: 20px;
+			padding-left: 20px;
+			padding-right: 20px;
+			width: 100%
+		}
+
+		.bee-row-6 .bee-col-5 .bee-block-1 {
+			padding: 20px;
+			width: 100%
+		}
+
+		.bee-row-9 .bee-row-content {
+			background-image: url('https://d1oco4z2z1fhwp.cloudfront.net/templates/default/5471/Line_div_3.png')
+		}
+
+		.bee-row-11 .bee-col-3 .bee-block-10,
+		.bee-row-11 .bee-col-3 .bee-block-14,
+		.bee-row-11 .bee-col-3 .bee-block-15,
+		.bee-row-11 .bee-col-3 .bee-block-16,
+		.bee-row-11 .bee-col-3 .bee-block-2,
+		.bee-row-11 .bee-col-3 .bee-block-3,
+		.bee-row-11 .bee-col-3 .bee-block-4,
+		.bee-row-11 .bee-col-3 .bee-block-8,
+		.bee-row-11 .bee-col-3 .bee-block-9,
+		.bee-row-12 .bee-col-1 .bee-block-2,
+		.bee-row-9 .bee-col-1 .bee-block-3 {
+			padding-left: 20px;
+			padding-right: 20px;
+			padding-top: 10px
+		}
+
+		.bee-row-10 .bee-row-content {
+			background-image: url('https://d1oco4z2z1fhwp.cloudfront.net/templates/default/5471/Line_div_4.png')
+		}
+
+		.bee-row-11 .bee-col-3 .bee-block-12,
+		.bee-row-11 .bee-col-3 .bee-block-18,
+		.bee-row-11 .bee-col-3 .bee-block-6 {
+			padding-left: 20px;
+			width: 100%
+		}
+
+		.bee-row-12 .bee-col-1 .bee-block-4 {
+			font-family: inherit;
+			font-size: 15px;
+			padding: 20px;
+			text-align: center
+		}
+
+		.bee-row-14 .bee-col-1 .bee-block-1,
+		.bee-row-14 .bee-col-2 .bee-block-1 {
+			padding: 20px
+		}
+
+		.bee-row-14 .bee-col-3 .bee-block-1 {
+			color: #000;
+			font-family: Lato, Tahoma, Verdana, Segoe, sans-serif;
+			font-size: 18px;
+			padding-bottom: 20px;
+			padding-top: 20px;
+			text-align: center
+		}
+
+		.bee-row-16 .bee-col-1 {
+			padding-bottom: 5px;
+			padding-top: 5px
+		}
+
+		.bee-row-16 .bee-col-1 .bee-block-1 {
+			color: #9d9d9d;
+			font-family: inherit;
+			font-size: 15px;
+			padding-bottom: 5px;
+			padding-top: 5px;
+			text-align: center
+		}
+
+		.bee-row-2 .bee-col-2 .bee-block-1 li {
+			padding-bottom: 5px;
+			padding-left: 5px;
+			padding-top: 25px
+		}
+
+		.bee-row-16 .bee-col-1 .bee-block-1 .bee-icon-image {
+			padding: 5px 6px 5px 5px
+		}
+
+		.bee-row-16 .bee-col-1 .bee-block-1 .bee-icon {
+			margin-left: 0;
+			margin-right: 0
+		}
+
+		.bee-row-14 .bee-col-3 .bee-block-1 li {
+			padding: 5px
+		}
+
+		@media (max-width:768px) {
+			.bee-form {
+				width: 100% !important
+			}
+
+			.bee-row-content:not(.no_stack) {
+				display: block
+			}
+		}
+
+		.bee-row-12 .bee-col-1 .bee-block-4 {
+			text-align: "center"
+		}
+
+		.bee-row-12 .bee-col-1 .bee-block-4 form {
+			display: inline-block;
+			width: 100%
+		}
+
+		.bee-row-12 .bee-col-1 .bee-block-4 div.label,
+		.bee-row-12 .bee-col-1 .bee-block-4 label {
+			color: transparent;
+			line-height: 200%;
+			text-align: left;
+			display: block
+		}
+
+		.bee-row-12 .bee-col-1 .bee-block-4 ::-webkit-input-placeholder {
+			color: #000
+		}
+
+		.bee-row-12 .bee-col-1 .bee-block-4 :-moz-placeholder {
+			color: #000
+		}
+
+		.bee-row-12 .bee-col-1 .bee-block-4 ::-moz-placeholder {
+			color: #000
+		}
+
+		.bee-row-12 .bee-col-1 .bee-block-4 :-ms-input-placeholder {
+			color: #000
+		}
+
+		.bee-row-12 .bee-col-1 .bee-block-4 .bee-field>label:first-child,
+		.bee-row-12 .bee-col-1 .bee-block-4 div.label {
+			padding: 3px
+		}
+
+		.bee-row-12 .bee-col-1 .bee-block-4 input:not([type=checkbox]):not([type=radio]):not([type=image]),
+		.bee-row-12 .bee-col-1 .bee-block-4 textarea {
+			background-color: #fff;
+			border-bottom: 1px solid #000;
+			border-left: 1px solid #000;
+			border-radius: 0;
+			border-right: 1px solid #000;
+			border-top: 1px solid #000;
+			color: #000;
+			padding: 5px;
+			min-height: 40px
+		}
+
+		.bee-row-12 .bee-col-1 .bee-block-4 input:not([type=checkbox]):not([type=radio]):focus,
+		.bee-row-12 .bee-col-1 .bee-block-4 textarea:focus {
+			outline-color: #000
+		}
+
+		.bee-row-12 .bee-col-1 .bee-block-4 button {
+			background-color: transparent;
+			border-bottom: 1px solid #000;
+			border-left: 1px solid #000;
+			border-radius: 30px;
+			border-right: 1px solid #000;
+			border-top: 1px solid #000;
+			color: #000;
+			line-height: 200%;
+			padding: 5px 20px 7px;
+			width: auto
+		}
+
+		.bee-row-12 .bee-col-1 .bee-block-4 .bee-button-container {
+			padding-top: 30px;
+			text-align: "center"
+		}
+	</style>
+</head>
+<body>
+<div class="bee-page-container">
+<div class="bee-row bee-row-1">
+<div class="bee-row-content">
+<div class="bee-col bee-col-1 bee-col-w12">
+<div class="bee-block bee-block-1 bee-divider">
+<div class="spacer" style="height:60px;"></div>
+</div>
+</div>
+</div>
+</div>
+<div class="bee-row bee-row-2">
+<div class="bee-row-content">
+<div class="bee-col bee-col-1 bee-col-w2">
+<div class="bee-block bee-block-1 bee-image"><img alt="Your Logo Placeholder" class="bee-center bee-fixedwidth" src="images/logo-dark.png" style="max-width:180px;"/></div>
+</div>
+<div class="bee-col bee-col-2 bee-col-w3">
+<div class="bee-block bee-block-1 bee-menu">
+<nav class="bee-menu">
+<ul class="bee-horizontal">
+<li><a href="www.example.com" target="_self" title="">Portfolio</a></li><span>,</span>
+<li><a href="www.example.com" target="_self" title="">Price</a></li><span>,</span>
+<li><a href="www.example.com" target="_self" title="">Contact</a></li>
+</ul>
+</nav>
+</div>
+</div>
+<div class="bee-col bee-col-3 bee-col-w5">
+<div class="bee-block bee-block-1 bee-divider">
+<div class="spacer" style="height:0px;"></div>
+</div>
+</div>
+<div class="bee-col bee-col-4 bee-col-w2">
+<div class="bee-block bee-block-1 bee-image"><a href="www.example.com"><img alt="Button Image" class="bee-center bee-fixedwidth" src="images/bookaslot_button.png" style="max-width:132px;"/></a></div>
+</div>
+</div>
+</div>
+<div class="bee-row bee-row-3">
+<div class="bee-row-content">
+<div class="bee-col bee-col-1 bee-col-w12">
+<div class="bee-block bee-block-1 bee-divider">
+<div class="spacer" style="height:130px;"></div>
+</div>
+</div>
+</div>
+</div>
+<div class="bee-row bee-row-4">
+<div class="bee-row-content">
+<div class="bee-col bee-col-1 bee-col-w3">
+<div class="bee-block bee-block-1 bee-image"><img alt="Photography Example" class="bee-center bee-autowidth" src="images/Example_Photography_3.png" style="max-width:320px;"/></div>
+</div>
+<div class="bee-col bee-col-2 bee-col-w3">
+<div class="bee-block bee-block-1 bee-divider">
+<div class="spacer" style="height:200px;"></div>
+</div>
+<div class="bee-block bee-block-2 bee-image"><img alt="Photography Example" class="bee-center bee-autowidth" src="images/Example_Photography_2.png" style="max-width:320px;"/></div>
+<div class="bee-block bee-block-3 bee-divider">
+<div class="spacer" style="height:30px;"></div>
+</div>
+</div>
+<div class="bee-col bee-col-3 bee-col-w3">
+<div class="bee-block bee-block-1 bee-heading">
+<h1 style="color:#000000;direction:ltr;font-family:Lato, Tahoma, Verdana, Segoe, sans-serif;font-size:25px;font-weight:normal;letter-spacing:normal;line-height:120%;text-align:left;margin-top:0;margin-bottom:0;"><strong>Nina Doneli</strong> </h1>
+</div>
+<div class="bee-block bee-block-2 bee-text">
+<div class="bee-text-content" style="font-size: 12px; line-height: 120%; color: #000000; font-family: inherit;">
+<p style="font-size: 12px; line-height: 14px;"><span style="font-size: 16px; line-height: 19px;">photography, videography, <br style=""/>editing & post production</span></p>
+</div>
+</div>
+<div class="bee-block bee-block-3 bee-text">
+<div class="bee-text-content" style="font-size: 12px; line-height: 120%; color: #000000; font-family: inherit;">
+<p style="font-size: 12px; line-height: 14px;"><span style="font-size: 16px; line-height: 19px;">Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat. </span></p>
+</div>
+</div>
+<div class="bee-block bee-block-4 bee-image"><img alt="Line Element" class="bee-autowidth" src="images/line_image.png" style="max-width:189px;"/></div>
+<div class="bee-block bee-block-5 bee-text">
+<div class="bee-text-content" style="font-size: 12px; line-height: 120%; color: #000000; font-family: inherit;">
+<p style="font-size: 12px; line-height: 14px;"><span style="font-size: 16px; line-height: 19px;">What I like about photographs is that they capture a moment that’s gone forever, impossible to reproduce.</span></p>
+</div>
+</div>
+</div>
+<div class="bee-col bee-col-4 bee-col-w3">
+<div class="bee-block bee-block-1 bee-divider">
+<div class="spacer" style="height:200px;"></div>
+</div>
+<div class="bee-block bee-block-2 bee-image"><img alt="Photography Example" class="bee-center bee-autowidth" src="images/Example_Photography_4.png" style="max-width:320px;"/></div>
+</div>
+</div>
+</div>
+<div class="bee-row bee-row-5">
+<div class="bee-row-content">
+<div class="bee-col bee-col-1 bee-col-w12">
+<div class="bee-block bee-block-1 bee-divider">
+<div class="spacer" style="height:130px;"></div>
+</div>
+</div>
+</div>
+</div>
+<div class="bee-row bee-row-6">
+<div class="bee-row-content">
+<div class="bee-col bee-col-1 bee-col-w3">
+<div class="bee-block bee-block-1 bee-image"><img alt="Photography Example" class="bee-center bee-autowidth" src="images/Example_Photography_5.png" style="max-width:360px;"/></div>
+</div>
+<div class="bee-col bee-col-2 bee-col-w1">
+<div class="bee-block bee-block-1 bee-divider">
+<div class="spacer" style="height:0px;"></div>
+</div>
+</div>
+<div class="bee-col bee-col-3 bee-col-w5">
+<div class="bee-block bee-block-1 bee-text">
+<div class="bee-text-content" style="font-size: 12px; line-height: 120%; color: #000000; font-family: inherit;">
+<p style="font-size: 12px; line-height: 14px;"><span style="font-size: 16px; line-height: 19px;">01<br style=""/><br style=""/>Photographing landscapes present a set of challenges. First, I think about the character of the landscape I want to shoot and the feeling I want to convey in my image. Should it feel dark and brooding, or light and airy? Are there any special features that will help express how you feel about it?</span></p>
+</div>
+</div>
+<div class="bee-block bee-block-2 bee-divider">
+<div class="spacer" style="height:30px;"></div>
+</div>
+<div class="bee-block bee-block-3 bee-image"><img alt="Photography Example" class="bee-center bee-autowidth" src="images/Example_Photography_6.png" style="max-width:560px;"/></div>
+</div>
+<div class="bee-col bee-col-4 bee-col-w1">
+<div class="bee-block bee-block-1 bee-divider">
+<div class="spacer" style="height:0px;"></div>
+</div>
+</div>
+<div class="bee-col bee-col-5 bee-col-w2">
+<div class="bee-block bee-block-1 bee-image"><img alt="Photography Example" class="bee-center bee-autowidth" src="images/Example_Photography_7.png" style="max-width:200px;"/></div>
+<div class="bee-block bee-block-2 bee-text">
+<div class="bee-text-content" style="font-size: 12px; line-height: 120%; color: #000000; font-family: inherit;">
+<p style="font-size: 12px; line-height: 14px;"><span style="font-size: 16px; line-height: 19px;">People spot a big black lens, and they worry about what they're doing, or how their hair looks. <br style=""/></span></p>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="bee-row bee-row-7">
+<div class="bee-row-content">
+<div class="bee-col bee-col-1 bee-col-w12">
+<div class="bee-block bee-block-1 bee-divider">
+<div class="spacer" style="height:100px;"></div>
+</div>
+<div class="bee-block bee-block-2 bee-text">
+<div class="bee-text-content" style="font-size: 12px; line-height: 120%; color: #000000; font-family: inherit;">
+<p style="font-size: 12px; line-height: 14px;"><span style="font-size: 16px; line-height: 19px;">02<br style=""/><br style=""/>Based in UK, I travel to the remotest parts of the world following my passion <br style=""/>for exploring and experiencing nature.<br style=""/></span></p>
+</div>
+</div>
+<div class="bee-block bee-block-3 bee-divider">
+<div class="spacer" style="height:15px;"></div>
+</div>
+<div class="bee-block bee-block-4 bee-image"><img alt="Photography Example" class="bee-center bee-fixedwidth" src="images/Example_Photography_8.png" style="max-width:1400px;"/></div>
+</div>
+</div>
+</div>
+<div class="bee-row bee-row-8">
+<div class="bee-row-content">
+<div class="bee-col bee-col-1 bee-col-w12">
+<div class="bee-block bee-block-1 bee-divider">
+<div class="spacer" style="height:100px;"></div>
+</div>
+</div>
+</div>
+</div>
+<div class="bee-row bee-row-9">
+<div class="bee-row-content">
+<div class="bee-col bee-col-1 bee-col-w4">
+<div class="bee-block bee-block-1 bee-text">
+<div class="bee-text-content" style="font-size: 12px; line-height: 120%; color: #000000; font-family: inherit;">
+<p style="font-size: 12px; line-height: 14px;"><span style="font-size: 16px; line-height: 19px;">03<br style=""/></span></p>
+</div>
+</div>
+<div class="bee-block bee-block-2 bee-divider">
+<div class="spacer" style="height:35px;"></div>
+</div>
+<div class="bee-block bee-block-3 bee-text">
+<div class="bee-text-content" style="font-size: 12px; line-height: 120%; color: #000000; font-family: inherit;">
+<p style="font-size: 12px; line-height: 14px;"><strong style=""><span style="font-size: 20px; line-height: 24px;">              “A picture is a secret about <br style=""/>a secret, the more it tells you the less <br style=""/>you know.”<br style=""/> </span></strong></p>
+</div>
+</div>
+<div class="bee-block bee-block-4 bee-divider">
+<div class="spacer" style="height:40px;"></div>
+</div>
+<div class="bee-block bee-block-5 bee-text">
+<div class="bee-text-content" style="font-size: 12px; line-height: 120%; color: #000000; font-family: inherit;">
+<p style="font-size: 12px; line-height: 14px;"><span style="font-size: 16px; line-height: 19px;">My work has been published in prominent magazines like National Geographic, and I've worked with clients like Apple and RedBull. I spend most of his time either in the Lofoten Islands, Norway, or in Tuscany, Italy, guiding groups from Russia, Asia, Europe, and the US.</span></p>
+</div>
+</div>
+</div>
+<div class="bee-col bee-col-2 bee-col-w1">
+<div class="bee-block bee-block-1 bee-divider">
+<div class="spacer" style="height:0px;"></div>
+</div>
+</div>
+<div class="bee-col bee-col-3 bee-col-w7">
+<div class="bee-block bee-block-1 bee-image"><img alt="Photography Example" class="bee-center bee-autowidth" src="images/4aaa0946-073d-42d7-81be-a8f438841d79.png" style="max-width:744px;"/></div>
+</div>
+</div>
+</div>
+<div class="bee-row bee-row-10">
+<div class="bee-row-content">
+<div class="bee-col bee-col-1 bee-col-w12">
+<div class="bee-block bee-block-1 bee-divider">
+<div class="spacer" style="height:110px;"></div>
+</div>
+</div>
+</div>
+</div>
+<div class="bee-row bee-row-11">
+<div class="bee-row-content">
+<div class="bee-col bee-col-1 bee-col-w5">
+<div class="bee-block bee-block-1 bee-divider">
+<div class="spacer" style="height:50px;"></div>
+</div>
+<div class="bee-block bee-block-2 bee-image"><img alt="Photography Example" class="bee-center bee-autowidth" src="images/Example_Photography_10.png" style="max-width:539px;"/></div>
+</div>
+<div class="bee-col bee-col-2 bee-col-w1">
+<div class="bee-block bee-block-1 bee-divider">
+<div class="spacer" style="height:0px;"></div>
+</div>
+</div>
+<div class="bee-col bee-col-3 bee-col-w6">
+<div class="bee-block bee-block-1 bee-divider">
+<div class="spacer" style="height:50px;"></div>
+</div>
+<div class="bee-block bee-block-2 bee-text">
+<div class="bee-text-content" style="font-size: 12px; line-height: 120%; color: #000000; font-family: inherit;">
+<p style="font-size: 12px; line-height: 14px;"><span style="font-size: 20px; line-height: 24px;"><strong style="">Editorial & Portrait Shoot</strong></span></p>
+</div>
+</div>
+<div class="bee-block bee-block-3 bee-text">
+<div class="bee-text-content" style="font-size: 12px; line-height: 120%; color: #000000; font-family: inherit;">
+<p style="font-size: 12px; line-height: 14px;"><span style="font-size: 16px; line-height: 19px;">              Lorem ipsum dolor sit <br style=""/>amet, consectetuer adipiscing elit, <br style=""/>sed diam nonummy </span></p>
+</div>
+</div>
+<div class="bee-block bee-block-4 bee-text">
+<div class="bee-text-content" style="font-size: 12px; line-height: 120%; color: #000000; font-family: inherit;">
+<p style="line-height: 14px; text-align: center;"><em style=""><span style="font-size: 16px; line-height: 19px;">£270</span></em></p>
+</div>
+</div>
+<div class="bee-block bee-block-5 bee-divider">
+<div class="spacer" style="height:20px;"></div>
+</div>
+<div class="bee-block bee-block-6 bee-image"><a href="www.example.com"><img alt="Button Image" class="bee-fixedwidth" src="images/bookaslot_button.png" style="max-width:144px;"/></a></div>
+<div class="bee-block bee-block-7 bee-divider">
+<div class="spacer" style="height:50px;"></div>
+</div>
+<div class="bee-block bee-block-8 bee-text">
+<div class="bee-text-content" style="font-size: 12px; line-height: 120%; color: #000000; font-family: inherit;">
+<p style="font-size: 12px; line-height: 14px;"><span style="font-size: 20px; line-height: 24px;"><strong style="">Location Photography & Videography</strong></span></p>
+</div>
+</div>
+<div class="bee-block bee-block-9 bee-text">
+<div class="bee-text-content" style="font-size: 12px; line-height: 120%; color: #000000; font-family: inherit;">
+<p style="font-size: 12px; line-height: 14px;"><span style="font-size: 16px; line-height: 19px;">              Lorem ipsum dolor sit <br style=""/>amet, consectetuer adipiscing elit, <br style=""/>sed diam nonummy </span></p>
+</div>
+</div>
+<div class="bee-block bee-block-10 bee-text">
+<div class="bee-text-content" style="font-size: 12px; line-height: 120%; color: #000000; font-family: inherit;">
+<p style="line-height: 14px; text-align: center;"><em style=""><span style="font-size: 16px; line-height: 19px;">£420</span></em></p>
+</div>
+</div>
+<div class="bee-block bee-block-11 bee-divider">
+<div class="spacer" style="height:20px;"></div>
+</div>
+<div class="bee-block bee-block-12 bee-image"><a href="www.example.com"><img alt="Button Image" class="bee-fixedwidth" src="images/bookaslot_button.png" style="max-width:144px;"/></a></div>
+<div class="bee-block bee-block-13 bee-divider">
+<div class="spacer" style="height:50px;"></div>
+</div>
+<div class="bee-block bee-block-14 bee-text">
+<div class="bee-text-content" style="font-size: 12px; line-height: 120%; color: #000000; font-family: inherit;">
+<p style="font-size: 12px; line-height: 14px;"><span style="font-size: 20px; line-height: 24px;"><strong style="">Wedding Photography</strong></span></p>
+</div>
+</div>
+<div class="bee-block bee-block-15 bee-text">
+<div class="bee-text-content" style="font-size: 12px; line-height: 120%; color: #000000; font-family: inherit;">
+<p style="font-size: 12px; line-height: 14px;"><span style="font-size: 16px; line-height: 19px;">              Lorem ipsum dolor sit <br style=""/>amet, consectetuer adipiscing elit, <br style=""/>sed diam nonummy </span></p>
+</div>
+</div>
+<div class="bee-block bee-block-16 bee-text">
+<div class="bee-text-content" style="font-size: 12px; line-height: 120%; color: #000000; font-family: inherit;">
+<p style="line-height: 14px; text-align: center;"><em style=""><span style="font-size: 16px; line-height: 19px;">£745</span></em></p>
+</div>
+</div>
+<div class="bee-block bee-block-17 bee-divider">
+<div class="spacer" style="height:20px;"></div>
+</div>
+<div class="bee-block bee-block-18 bee-image"><a href="www.example.com"><img alt="Button Image" class="bee-fixedwidth" src="images/bookaslot_button.png" style="max-width:144px;"/></a></div>
+<div class="bee-block bee-block-19 bee-divider">
+<div class="spacer" style="height:0px;"></div>
+</div>
+</div>
+</div>
+</div>
+<div class="bee-row bee-row-12">
+<div class="bee-row-content">
+<div class="bee-col bee-col-1 bee-col-w12">
+<div class="bee-block bee-block-1 bee-divider">
+<div class="spacer" style="height:100px;"></div>
+</div>
+<div class="bee-block bee-block-2 bee-text">
+<div class="bee-text-content" style="font-size: 12px; line-height: 120%; color: #000000; font-family: inherit;">
+<p style="font-size: 12px; line-height: 14px;"><span style="font-size: 20px; line-height: 24px;"><strong style="">Contact me</strong></span></p>
+</div>
+</div>
+<div class="bee-block bee-block-3 bee-text">
+<div class="bee-text-content" style="font-size: 12px; line-height: 120%; color: #000000; font-family: inherit;">
+<p style="font-size: 12px; line-height: 14px;"><span style="font-size: 16px; line-height: 19px;">Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper .</span></p>
+</div>
+</div>
+<div class="bee-block bee-block-4 bee-form">
+<form accept-charset="UTF-8" action="ACTION_PLACEHOLDER" autocomplete="on" enctype="multipart/form-data" method="post" target="_self">
+<div class="bee-form-row">
+<div class="bee-field bee-field-id_f8ul1g"><input id="id_f8ul1g" name="firstname" placeholder="Full Name" required="" type="text"/></div>
+</div>
+<div class="bee-form-row">
+<div class="bee-field bee-field-id_rdeonv"><label for="id_rdeonv">email</label><input id="id_rdeonv" name="lastname" placeholder="Email Address" required="" type="email"/></div>
+</div>
+<div class="bee-form-row">
+<div class="bee-field bee-field-id_kjtpo6"><label for="id_kjtpo6">number</label><input id="id_kjtpo6" max="20" min="10" name="email" placeholder="+44 123 456 7890" required="" type="number"/></div>
+</div>
+<div class="bee-form-row"></div>
+<div class="bee-form-row"></div>
+<div class="bee-form-row"></div>
+<div class="bee-form-row"></div>
+<div class="bee-form-row"></div>
+<div class="bee-form-row"></div>
+<div class="bee-form-row">
+<div class="bee-field bee-field-id_zo4pzi"><label for="id_zo4pzi">message</label><textarea id="id_zo4pzi" name="privacy_policy" placeholder="Your Message" required="" rows="3"></textarea></div>
+</div>
+<div class="bee-form-row">
+<div class="bee-field bee-field-id_6c1g6n">
+<div class="bee-button-container"><button id="id_6c1g6n" name="submit" type="submit" value="Send Now">Send Now</button></div>
+</div>
+</div>
+</form>
+</div>
+</div>
+</div>
+</div>
+<div class="bee-row bee-row-13">
+<div class="bee-row-content">
+<div class="bee-col bee-col-1 bee-col-w12">
+<div class="bee-block bee-block-1 bee-divider">
+<div class="spacer" style="height:100px;"></div>
+</div>
+</div>
+</div>
+</div>
+<div class="bee-row bee-row-14">
+<div class="bee-row-content reverse">
+<div class="bee-col bee-col-1 bee-col-w3">
+<div class="bee-block bee-block-1 bee-text">
+<div class="bee-text-content" style="font-size: 12px; line-height: 120%; color: #000000; font-family: inherit;">
+<p style="font-size: 12px; line-height: 14px;"><a href="#top" style="text-decoration: none; color: #000000;" target="_self"><span style="font-size: 16px; line-height: 19px;">(Back to the top)</span></a></p>
+</div>
+</div>
+</div>
+<div class="bee-col bee-col-2 bee-col-w6">
+<div class="bee-block bee-block-1 bee-text">
+<div class="bee-text-content" style="font-size: 12px; line-height: 150%; color: #000000; font-family: inherit;">
+<p style="font-size: 12px; line-height: 18px; text-align: center;"><span style="font-size: 16px; line-height: 24px;">Nina Doneli<br style=""/>Contact +44 123 456 789<br style=""/>Email - example@example.com<br style=""/>123 Street Name, City Name, Country, PO 5T </span></p>
+</div>
+</div>
+</div>
+<div class="bee-col bee-col-3 bee-col-w3">
+<div class="bee-block bee-block-1 bee-menu">
+<nav class="bee-menu">
+<ul class="bee-horizontal">
+<li>Follow me:</li>
+<li><a href="www.example.com" target="_self" title="">Fb</a></li>
+<li><a href="www.example.com" target="_self" title="">IG</a></li>
+<li><a href="www.example.com" target="_self" title="">Tt</a></li>
+</ul>
+</nav>
+</div>
+</div>
+</div>
+</div>
+<div class="bee-row bee-row-15">
+<div class="bee-row-content">
+<div class="bee-col bee-col-1 bee-col-w12">
+<div class="bee-block bee-block-1 bee-divider">
+<div class="spacer" style="height:100px;"></div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</body>
+</html>
