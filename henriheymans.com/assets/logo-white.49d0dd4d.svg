@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg width="1200px" height="1201px" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xml:space="preserve" xmlns:serif="http://www.serif.com/" style="fill-rule:evenodd;clip-rule:evenodd;stroke-linejoin:round;stroke-miterlimit:2;">
+    <g transform="matrix(1,0,0,1,-8868,-1409)">
+        <g id="Henri-Symbol" transform="matrix(0.410397,0,0,0.410397,5952.13,1409.18)">
+            <rect x="7105" y="0" width="2924" height="2924" style="fill:none;"/>
+            <g transform="matrix(3.02211,0,0,3.02211,7681.52,333.241)">
+                <path d="M457,-16C488,-16 509,1 509,27C509,107 280,126 244,160C186,215 100,356 37,471C13,515 10,534 28,534C53,534 82,499 126,417C222,236 341,135 500,135C582,135 636,191 636,275C636,380 592,451 490,513C438,544 425,558 425,584C425,607 444,624 488,639C543,658 567,679 567,709C567,741 544,763 510,763C378,763 417,608 322,608C293,608 283,627 279,646C276,666 265,674 251,674C238,674 229,664 229,653C229,635 251,622 271,598C292,572 325,529 377,448C418,384 447,296 451,227C452,195 432,176 409,176C355,176 280,240 241,339C221,389 219,448 219,513C219,622 162,695 56,695C4,695 -30,655 -30,594C-30,525 25,463 25,394C25,356 -50,326 -50,272C-50,184 124,222 235,143C344,63 402,-16 457,-16Z" style="fill:rgb(250,250,250);fill-rule:nonzero;"/>
+            </g>
+        </g>
+    </g>
+</svg>

@@ -1,0 +1,7 @@
+Sitemap: https://www.cappen.com/sitemap.xml
+
+User-agent: *
+Disallow: /dev
+Disallow: /dev/
+Disallow: /criacao
+Disallow: /criacao/
