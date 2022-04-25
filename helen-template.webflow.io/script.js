@@ -1077,7 +1077,8 @@
               value = self[index];
               result = boundFunction(value, index, O);
               if (TYPE) {
-                if (IS_MAP) target[index] = result; // map
+                if (IS_MAP) target[index] = result;
+                // map
                 else if (result)
                   switch (TYPE) {
                     case 3:
@@ -33236,7 +33237,7 @@
             );
           }
 
-          function createBadge() { }
+          function createBadge() {}
 
           function ensureBrand() {
             var found = $body.children(namespace);
@@ -36043,7 +36044,8 @@
         }, actionState || {});
       };
 
-      function getInstanceOrigin(element) { // $FlowFixMe
+      function getInstanceOrigin(element) {
+        // $FlowFixMe
         var refState =
           arguments.length > 1 && arguments[1] !== undefined
             ? arguments[1]
@@ -40050,7 +40052,8 @@
         }),
         (0, _defineProperty2["default"])(_default2, MOUSE_MOVE, {
           types: "mousemove mouseout scroll",
-          handler: function handler(_ref8) { // $FlowFixMe
+          handler: function handler(_ref8) {
+            // $FlowFixMe
             var store = _ref8.store,
               element = _ref8.element,
               eventConfig = _ref8.eventConfig,
@@ -40224,7 +40227,8 @@
         }),
         (0, _defineProperty2["default"])(_default2, SCROLLING_IN_VIEW, {
           types: SCROLL_EVENT_TYPES,
-          handler: function handler(_ref10) { // $FlowFixMe
+          handler: function handler(_ref10) {
+            // $FlowFixMe
             var element = _ref10.element,
               store = _ref10.store,
               eventConfig = _ref10.eventConfig,
