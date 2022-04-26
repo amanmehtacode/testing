@@ -3198,7 +3198,7 @@ figcaption {
 
 .main-paragraph {
   width: 100%;
-  max-width: 374px;
+  max-width: auto;
   font-size: 18px;
   line-height: 1.3;
 }
@@ -5620,7 +5620,6 @@ figcaption {
 
   .column.width-50.padding-vertical.padding-huge.border-right.is-tablet-full-width {
     padding-top: 60px;
-    padding-right: 2.2rem;
     padding-bottom: 60px;
   }
 
@@ -5717,7 +5716,7 @@ figcaption {
   }
 
   .main-paragraph.margin-top {
-    font-size: 16px;
+    font-size: 20px;
   }
 
   .main-paragraph.margin-top.margin-xxsmall.text-style-italic {
