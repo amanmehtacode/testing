@@ -4895,8 +4895,8 @@ figcaption {
   }
 
   .avatar.border-radius {
-    width: 22vw;
-    height: 22vw;
+    width: 20vw;
+    height: 20vw;
     -webkit-box-flex: 0;
     -webkit-flex: 0 0 auto;
     -ms-flex: 0 0 auto;
