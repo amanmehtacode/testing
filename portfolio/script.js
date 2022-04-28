@@ -1,9 +1,5 @@
 /*!
- * Webflow: Front-end site library
- * @license MIT
- * Inline scripts may access the api using an async handler:
- *   var Webflow = Webflow || [];
- *   Webflow.push(readyFunction);
+ * © Code Solutions™, 2020-2022. Unauthorized use and/or duplication of this material without express and written permission from this site’s author and/or owner is strictly prohibited. Excerpts and links may be used, provided that full and clear credit is given to Mr. Aman Mehta and Code Solutions™ with appropriate and specific direction to the original content.
  */
 /******/ (function (modules) {
   // webpackBootstrap
