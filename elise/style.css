@@ -201,7 +201,7 @@ th {
 body {
   margin: 0;
   min-height: 100%;
-  background-color: #330514;
+  background-color: #000000;
   font-family: Satoshi, sans-serif;
   color: #eae6e4;
   font-size: 18px;
@@ -249,92 +249,6 @@ input.w-button {
 }
 html[data-w-dynpage] [data-w-cloak] {
   color: transparent !important;
-}
-.w-webflow-badge,
-.w-webflow-badge * {
-  position: static;
-  left: auto;
-  top: auto;
-  right: auto;
-  bottom: auto;
-  z-index: auto;
-  display: block;
-  visibility: visible;
-  overflow: visible;
-  overflow-x: visible;
-  overflow-y: visible;
-  box-sizing: border-box;
-  width: auto;
-  height: auto;
-  max-height: none;
-  max-width: none;
-  min-height: 0;
-  min-width: 0;
-  margin: 0;
-  padding: 0;
-  float: none;
-  clear: none;
-  border: 0 transparent;
-  border-radius: 0;
-  background: 0 0;
-  box-shadow: none;
-  opacity: 1;
-  transform: none;
-  transition: none;
-  direction: ltr;
-  font-family: inherit;
-  font-weight: inherit;
-  color: inherit;
-  font-size: inherit;
-  line-height: inherit;
-  font-style: inherit;
-  font-variant: inherit;
-  text-align: inherit;
-  letter-spacing: inherit;
-  text-decoration: inherit;
-  text-indent: 0;
-  text-transform: inherit;
-  list-style-type: disc;
-  text-shadow: none;
-  font-smoothing: auto;
-  vertical-align: baseline;
-  cursor: inherit;
-  white-space: inherit;
-  word-break: normal;
-  word-spacing: normal;
-  word-wrap: normal;
-}
-.w-webflow-badge {
-  position: fixed !important;
-  display: inline-block !important;
-  visibility: visible !important;
-  z-index: 2147483647 !important;
-  top: auto !important;
-  right: 12px !important;
-  bottom: 12px !important;
-  left: auto !important;
-  color: #aaadb0 !important;
-  background-color: #fff !important;
-  border-radius: 3px !important;
-  padding: 6px 8px 6px 6px !important;
-  font-size: 12px !important;
-  opacity: 1 !important;
-  line-height: 14px !important;
-  text-decoration: none !important;
-  transform: none !important;
-  margin: 0 !important;
-  width: auto !important;
-  height: auto !important;
-  overflow: visible !important;
-  white-space: nowrap;
-  box-shadow: 0 0 0 1px rgba(0, 0, 0, 0.1), 0 1px 3px rgba(0, 0, 0, 0.1);
-  cursor: pointer;
-}
-.w-webflow-badge > img {
-  display: inline-block !important;
-  visibility: visible !important;
-  opacity: 1 !important;
-  vertical-align: middle !important;
 }
 p {
   margin-top: 0;
@@ -1873,8 +1787,8 @@ label {
 blockquote {
   margin: 0 0 10px 10px;
   padding: 24px 16px;
-  border-left: 1px solid #330514;
-  background-color: #330514;
+  border-left: 1px solid #000000;
+  background-color: #000000;
   font-family: Marcellus, sans-serif;
   color: #eae6e4;
   font-size: 20px;
@@ -1932,7 +1846,7 @@ figcaption {
   position: fixed;
 }
 .nav-bar.sticky.filled {
-  background-color: #330514;
+  background-color: #000000;
 }
 .nav-menu {
   margin-left: -24px;
@@ -2011,7 +1925,7 @@ figcaption {
   background-color: #eae6e4;
 }
 .color-block.bulgarian-rose {
-  background-color: #330514;
+  background-color: #000000;
 }
 .color-block.light-bulgarian-rose {
   border: 2px solid rgba(234, 230, 228, 0.1);
@@ -2239,7 +2153,7 @@ figcaption {
   border: 1px solid #e7e8e8;
 }
 .button-block.dark {
-  background-color: #330514;
+  background-color: #000000;
 }
 .headings-wrapper {
   display: -webkit-box;
@@ -2365,7 +2279,7 @@ figcaption {
   padding-right: 16px;
   padding-left: 16px;
   background-color: #eae6e4;
-  color: #330514;
+  color: #000000;
   line-height: 26px;
   letter-spacing: 0.2px;
 }
@@ -2470,7 +2384,7 @@ figcaption {
   transition: background-color 0.3s cubic-bezier(0.23, 1, 0.32, 1),
     color 0.3s cubic-bezier(0.23, 1, 0.32, 1);
   font-family: Marcellus, sans-serif;
-  color: #330514;
+  color: #000000;
   font-size: 18px;
   line-height: 24px;
   letter-spacing: 0.8px;
@@ -2498,7 +2412,7 @@ figcaption {
 }
 .footer {
   position: relative;
-  background-color: #330514;
+  background-color: #000000;
   cursor: none;
 }
 .copyright-block {
@@ -3193,7 +3107,7 @@ figcaption {
   height: 100%;
   padding-top: 32%;
   border-radius: 50%;
-  background-color: #330514;
+  background-color: #000000;
   font-family: Satoshi, sans-serif;
   color: #eae6e4;
   font-size: 100%;
@@ -3715,7 +3629,7 @@ figcaption {
   -webkit-align-items: center;
   -ms-flex-align: center;
   align-items: center;
-  background-color: #330514;
+  background-color: #000000;
 }
 .loading-logo {
   position: relative;
@@ -3855,7 +3769,7 @@ figcaption {
     -ms-flex: 0 0 auto;
     flex: 0 0 auto;
     border-left: 1px solid #481f2c;
-    background-color: #330514;
+    background-color: #000000;
   }
   .logo {
     height: 20px;
