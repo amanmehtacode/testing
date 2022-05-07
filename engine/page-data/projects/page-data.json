@@ -1,0 +1,141 @@
+{
+  "componentChunkName": "component---src-pages-projects-jsx",
+  "path": "/projects/",
+  "result": {
+    "data": {
+      "page": {
+        "schema": null,
+        "seo": {
+          "title": "EngineShop – Our Projects",
+          "desc": null,
+          "card": "summary_large_image",
+          "image": {
+            "url": "https://www.datocms-assets.com/50442/1631018453-opengraph-projects.jpg?auto=format"
+          }
+        },
+        "heroTitle": "Projects",
+        "heroScript": "Our",
+        "heroExcerpt": "See what curiosity is capable of creating. Something may work on paper, but that means nothing if it flounders in the real world."
+      },
+      "seoFallback": {
+        "seo": {
+          "facebook": null,
+          "twitter": null,
+          "fallback": {
+            "title": "EngineShop ",
+            "image": {
+              "url": "https://www.datocms-assets.com/50442/1631018281-opengraph-home.jpg?auto=format"
+            },
+            "desc": "Specialising in Engagement Campaigns, Sponsorship & Partnership, Earned Media/Stunts, Entertainment Marketing, Esports Marketing & Measurement + Business Insights",
+            "card": "summary_large_image"
+          }
+        }
+      },
+      "projectServices": {
+        "edges": [
+          { "node": { "id": "51664122", "title": "Gaming and Esports" } },
+          { "node": { "id": "51664159", "title": "Entertainment Marketing" } },
+          {
+            "node": { "id": "51664040", "title": "Sponsorship and Partnership" }
+          },
+          { "node": { "id": "51664084", "title": "Earned Media/Stunts" } },
+          { "node": { "id": "51663723", "title": "Engagement Campaigns" } }
+        ]
+      },
+      "projects": {
+        "nodes": [
+          {
+            "id": "52507932",
+            "title": "Mercedes-Benz USA",
+            "excerpt": "A vehicle for voice and community",
+            "slug": "mercedes-benz-usa",
+            "tags": [
+              { "tag": "Sponsorship and Partnership", "id": "51664040" },
+              { "tag": "Engagement Campaigns", "id": "51663723" },
+              { "tag": "Entertainment Marketing", "id": "51664159" }
+            ],
+            "image": {
+              "data": {
+                "images": {
+                  "sources": [],
+                  "fallback": {
+                    "src": "https://www.datocms-assets.com/50442/1632160636-mercedes-benz-stadium1.jpg?auto=format&w=1429",
+                    "srcSet": "https://www.datocms-assets.com/50442/1632160636-mercedes-benz-stadium1.jpg?auto=format&dpr=0.53&w=1429 750w,\nhttps://www.datocms-assets.com/50442/1632160636-mercedes-benz-stadium1.jpg?auto=format&dpr=0.76&w=1429 1080w,\nhttps://www.datocms-assets.com/50442/1632160636-mercedes-benz-stadium1.jpg?auto=format&dpr=0.96&w=1429 1366w,\nhttps://www.datocms-assets.com/50442/1632160636-mercedes-benz-stadium1.jpg?auto=format&w=1429 1429w",
+                    "sizes": "100vw"
+                  }
+                },
+                "layout": "fullWidth",
+                "placeholder": {
+                  "fallback": "data:image/jpg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/2wCEAAoHBwgHBgoICAgLDQoLFyINDhkVEykVDhYRFxUgGB4fFiEdKy0jHR0oHRUWJDUlKC0vMjIyGSI4PTcwPCsxMi8BCgsLDg0OHBAQHDsoIig7Ozs7Ozs7Ozs7Ozs7LzsvNTsvOzs7Ozs7Oy87OzsvLy87Ly8vLy81NS8vLy8vLy8vL//AABEIAA4AGAMBIgACEQEDEQH/xAAaAAABBQEAAAAAAAAAAAAAAAAEAQIDBQYA/8QAHhAAAgICAgMAAAAAAAAAAAAAAQQAAgMRBTESEyL/xAAXAQADAQAAAAAAAAAAAAAAAAADBAUC/8QAGxEAAgIDAQAAAAAAAAAAAAAAAQIAEQMSIQT/2gAMAwEAAhEDEQA/AMsxzFLDUcufd9CCtoY8Y8hCuM61BKVxi5UHqDGmHZG8yVaEkdRZYMpY89NWE6YYq5sRbLlfbk//2Q=="
+                },
+                "width": 1,
+                "height": 0.5555555555555556
+              },
+              "alt": "Mercedes-Benz Stadium"
+            }
+          },
+          {
+            "id": "52507924",
+            "title": "Three Olives Vodka",
+            "excerpt": "Party at 3pm or 3am",
+            "slug": "three-olives-vodka",
+            "tags": [
+              { "tag": "Engagement Campaigns", "id": "51663723" },
+              { "tag": "Sponsorship and Partnership", "id": "51664040" }
+            ],
+            "image": {
+              "data": {
+                "images": {
+                  "sources": [],
+                  "fallback": {
+                    "src": "https://www.datocms-assets.com/50442/1632182539-tov-2-story.jpg?auto=format&w=1300",
+                    "srcSet": "https://www.datocms-assets.com/50442/1632182539-tov-2-story.jpg?auto=format&dpr=0.58&w=1300 750w,\nhttps://www.datocms-assets.com/50442/1632182539-tov-2-story.jpg?auto=format&dpr=0.84&w=1300 1080w,\nhttps://www.datocms-assets.com/50442/1632182539-tov-2-story.jpg?auto=format&w=1300 1300w",
+                    "sizes": "100vw"
+                  }
+                },
+                "layout": "fullWidth",
+                "placeholder": {
+                  "fallback": "data:image/jpg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/2wCEAAoHBwgHBhYUCAgLCgoVDhUVGBUNDhoQDRUWFxUaGBYVIhUmJCsjHR0oHRUWJDUlKC0vMjIyGSU4PTcwPCsxMi8BCgsLDg0OHBAQHDsoIigvNS81Ozs7Oy8xOy8vLy8vLy8vLzs7Oy8vNi8vLy8vLy81NS8vLy8vLy8vLy8vLy8vL//AABEIABEAGAMBIgACEQEDEQH/xAAZAAEAAwEBAAAAAAAAAAAAAAAABQYHBAP/xAAgEAABBAIBBQAAAAAAAAAAAAAAAQIDBAUhMQYSIiMy/8QAGAEAAgMAAAAAAAAAAAAAAAAAAAQBAwX/xAAcEQACAwADAQAAAAAAAAAAAAABAgADMREhURL/2gAMAwEAAhEDEQA/AJNcrG1dqhJ0+o68bdvQolpkvZpVIp1a+9/hKqIOBlsPZizVNSfZo2Uz8EyacgM5fHbiT2PVQH0o65lbpYTyBLBZ4PKDkAVXZpX7OXIfIAJOwXJ//9k="
+                },
+                "width": 1,
+                "height": 0.5555555555555556
+              },
+              "alt": "Three Olives Vodka"
+            }
+          },
+          {
+            "id": "51665183",
+            "title": "Bud Light BL6",
+            "excerpt": "How do you win the war of the consoles? \nBy creating the coolest one ever. ",
+            "slug": "bud-light-bl6",
+            "tags": [
+              { "tag": "Earned Media/Stunts", "id": "51664084" },
+              { "tag": "Gaming and Esports", "id": "51664122" }
+            ],
+            "image": {
+              "data": {
+                "images": {
+                  "sources": [],
+                  "fallback": {
+                    "src": "https://www.datocms-assets.com/50442/1628691673-budlight-hero.png?auto=format&w=1440",
+                    "srcSet": "https://www.datocms-assets.com/50442/1628691673-budlight-hero.png?auto=format&dpr=0.53&w=1440 750w,\nhttps://www.datocms-assets.com/50442/1628691673-budlight-hero.png?auto=format&dpr=0.75&w=1440 1080w,\nhttps://www.datocms-assets.com/50442/1628691673-budlight-hero.png?auto=format&dpr=0.95&w=1440 1366w,\nhttps://www.datocms-assets.com/50442/1628691673-budlight-hero.png?auto=format&w=1440 1440w",
+                    "sizes": "100vw"
+                  }
+                },
+                "layout": "fullWidth",
+                "placeholder": {
+                  "fallback": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAB0AAAAVCAMAAACNHhVQAAAAAXNSR0IArs4c6QAAAwBQTFRFESeBBAgvBAcsECV+FSyKAgMYDyN5AwYqEiiEESZ6AwUmFSyNBAcoDyN6ECV/FS2GBQk1Fy+JDiB1EymFCQkHCxtrBgw5Dh9wESNwEymAGTGQDB9yFSqEDR1kBQgyCBA/ChleFCuCAwQcHTGJEimGESaCCxtoGS+MCRlnFy+RGzaZCRRTBAUfCRI9GDGTCgoSDyNyDiR8CA48Cx1tCRRHFCl+BAcuEiiDGzacIzySJ0q2CxdcGTKVGTKXCxhkCA9IHjmZEyR1ChJBHDueJ0izHTqrEyZ+FzCOHTmgDBVVBxFPBQYQCQkLDBpZGDKZgIixGC+VCAcOBAMFDA0aIz2ge4a2AgQkDhI2GSx+DBlVJ0CZDyBhAwYoDiBmL1OpCg8tIz6bFCZvMVevLlWxID2nESZ2KEOlEiZ8JkawDRpQGzWSDh1fFC+KHDikDyBuFyl/EyqJHx0bEB9fM1uzHC+DCgwnECFzIDmcbHalcn2uGhofJ1q3eY/DipzKfZfMaHaslJu9h46yPEBZNjhDHkuqHkWfJECpnK3banOieoSxFRINOEV2JykrIDeAGR9LFh6UlaLfBwxBFip5DxlMAgUjCQ02LU6hHDeUKkOhKEytISU0KzBDEA0JKk+zMVu1EyZyES56JEWkFxUTEBMqJkirJjd4FyFNDBIxFCl4FSlvEh1UJEStEyhvBxNYCBJMMDhWNzpJd4CpNG/DeJzUeIS1Rn3LEiBpEzKMFz+VW4vRHFGuM0mUgpPDd4i5Y3+5aJnbQFSaWWeehZfDHStkanyyHlS1ZHu4ExIUaojEfoasKlevHxwVV33FIi5bWoLGHzumvMbjkpe2pbfcU3fAOjxIHUKiHjWMe5nQGDOfJCMkJyxAKkerhYywZW2XkpzCLjp0BQslUld0Li8xBAYWBxtxRkpkBhx5hpC8MlG3J0y+P02nI0S8kJvJP0ZwEBeXHyRzICVbCRRjDSF+eIvbR095O0GFMC0mDxVmc32nSlOIEhh0PkNfFRucIz96LDNsERiRQWtliAAAAoFJREFUKFMBdgKJ/QA7PwweEB9JnyMjHAgTExMTDSCRAiIFdZVcAVugIAA+FgUKMlt0JzcxAAQECwsTF0oQDAxWVy0HDAo0XQAVQkuTWBE3DgMDAAsuLnADbk0/EAJWVx8CNgIKDAAmblgPADElNwMxAC5O2FQaHEErEAeUXxYBATJCLQAVGxIGAzckCA4AJFCGdOrzhuY7FgosLAIBAgEfNAAzEg0OABMkNw4lLtvojRv1kFTkSlwsBSIMNgICHgAmEg0OACUNGwZ3ROnrhIUV+ZDyFUlcIgUiBwEBAgAzBg0GEhsXQW8ZEgYc9PYLFVWIBS0rAgUFIgIeHgA7HWVsZxhBFyitPyxRjf0L/P6H+4rgJq4QAlwHBwA0HxAfNWoVKCY+FhQUTYuMj/r4iYOKLQsGGyYgKwAADxlNChhAFzMbXxRML46Oj//t7IKMSxkkJQ4NEgAJGREqqDZqZmcAoxRRFOPx9+7w5+XiL2ULAAMGKAAJIRERSGmqOlQpppwvTExLFO9JieHZUwQEEwY+tgAJIQ8nKqynq0Q4GpqiL1FSUnVCi4LLck43dhi4ugAJGQ8RKqktaDpDPGCbcXF6x1NTUnrDPUZ2bIS1vgBlNRwPOGlhaERkPG1kpa+wg9TazdZQRreyuX28VQAwZyEan1lDpDpmKT04RUVIQHfPRVBHyr+zfL3CfwAwCTUYaxqhY52YBEcaPCpIbU4nR9XT1360u8HRVQBrHV0YEWBinplaD3AEGjwpHCNDc36HyMB5gE+A3gBZHTAhWmJzYkA5HBMEBABvhcXM0n3OxHh4yYGB3QArHZI5ll5elycjAwBGCTl7e3zQxn95T0+xiNzfK2MOv4e8idHJAAAAAElFTkSuQmCC"
+                },
+                "width": 1,
+                "height": 0.5555555555555556
+              },
+              "alt": "EngineShop - BudLight6 Hero"
+            }
+          }
+        ]
+      }
+    },
+    "pageContext": {}
+  },
+  "staticQueryHashes": ["2423567904", "91581438"]
+}

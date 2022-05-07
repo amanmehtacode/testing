@@ -1,0 +1,213 @@
+{
+  "componentChunkName": "component---src-pages-services-jsx",
+  "path": "/services/",
+  "result": {
+    "data": {
+      "seoFallback": {
+        "seo": {
+          "facebook": null,
+          "twitter": null,
+          "fallback": {
+            "title": "EngineShop ",
+            "image": {
+              "url": "https://www.datocms-assets.com/50442/1631018281-opengraph-home.jpg?auto=format"
+            },
+            "desc": "Specialising in Engagement Campaigns, Sponsorship & Partnership, Earned Media/Stunts, Entertainment Marketing, Esports Marketing & Measurement + Business Insights",
+            "card": "summary_large_image"
+          }
+        }
+      },
+      "fallback": {
+        "text": "We all succeed when you succeed",
+        "textLink": "Get in touch with us",
+        "link": { "slug": "contact" },
+        "image": {
+          "alt": "EngineShop - Call to Action Image",
+          "data": {
+            "images": {
+              "sources": [],
+              "fallback": {
+                "src": "https://www.datocms-assets.com/50442/1628534327-cta-bg.jpg?auto=format&w=1440",
+                "srcSet": "https://www.datocms-assets.com/50442/1628534327-cta-bg.jpg?auto=format&dpr=0.53&w=1440 750w,\nhttps://www.datocms-assets.com/50442/1628534327-cta-bg.jpg?auto=format&dpr=0.75&w=1440 1080w,\nhttps://www.datocms-assets.com/50442/1628534327-cta-bg.jpg?auto=format&dpr=0.95&w=1440 1366w,\nhttps://www.datocms-assets.com/50442/1628534327-cta-bg.jpg?auto=format&w=1440 1440w",
+                "sizes": "100vw"
+              }
+            },
+            "layout": "fullWidth",
+            "placeholder": {
+              "fallback": "data:image/jpg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/2wCEAAoHBwgHBgoICAgLDQ8LGhMQDQ0ZDBQVFgwNGhMZGBYTFhUmHysjGh0oHRUWJDUlKC0vMjIyGSI4PTcwPCsxMi8BCgsLBQUFEAUFEC8cFhwvLy8vLy8vLy8vLy8vLy8vLy8vLy8vLy8vLy8vLy8vLy8vLy8vLy8vLy8vLy8vLy8vL//AABEIAAoAGAMBIgACEQEDEQH/xAAYAAACAwAAAAAAAAAAAAAAAAAABQECBP/EABwQAAIBBQEAAAAAAAAAAAAAAAABBAIDBREhMf/EABQBAQAAAAAAAAAAAAAAAAAAAAD/xAAUEQEAAAAAAAAAAAAAAAAAAAAA/9oADAMBAAIRAxEAPwBXIivREeMtdGF/wzIBRmIVFdtrYF8m+MAP/9k="
+            },
+            "width": 1,
+            "height": 0.4166666666666667
+          }
+        }
+      },
+      "listing": {
+        "nodes": [
+          {
+            "id": "51663723",
+            "title": "Engagement Campaigns",
+            "slug": "engagement-campaigns",
+            "wysiwyg": "<p><span>No matter the channel, ENGINE SHOP creates platforms that incite guests to be a part of the narrative. We know that great consumer experiences are multi-dimensional and immersive, connective and collaborative, and that inspired consumers engage with and shape the worlds we craft for their edutainment. We consistently break down the walls of traditional experiential marketing, centering resonant engagement as our first focus for your brand&rsquo;s growth.</span></p>",
+            "image": {
+              "alt": "Three Olives Vodka",
+              "data": {
+                "images": {
+                  "sources": [],
+                  "fallback": {
+                    "src": "https://www.datocms-assets.com/50442/1632186967-tov-instagram.jpg?auto=format&w=1200",
+                    "srcSet": "https://www.datocms-assets.com/50442/1632186967-tov-instagram.jpg?auto=format&dpr=0.63&w=1200 750w,\nhttps://www.datocms-assets.com/50442/1632186967-tov-instagram.jpg?auto=format&dpr=0.9&w=1200 1080w,\nhttps://www.datocms-assets.com/50442/1632186967-tov-instagram.jpg?auto=format&w=1200 1200w",
+                    "sizes": "100vw"
+                  }
+                },
+                "layout": "fullWidth",
+                "placeholder": {
+                  "fallback": "data:image/jpg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/2wCEAAoHBwgHBgoICAgLCgoLFRUVFQ0NDh0VFR0dHRUdHRofFigaKysjHikoHRUWJDUxKC0vMjIyGSI4PTcwPCsxMi8BCgsLDg0OHBAQHDsoIig7Ozs7Ozs7Oy87Ozs7Oy87Oy81Ozs7Ozs1Ozs1Ly87LzsvOzs7NS8vLzUvLy8vLy8vL//AABEIABAAGAMBIgACEQEDEQH/xAAWAAEBAQAAAAAAAAAAAAAAAAAGAwD/xAAfEAABAwMFAAAAAAAAAAAAAAACAAEDBBExBRIhI5H/xAAVAQEBAAAAAAAAAAAAAAAAAAAEBf/EABsRAAIDAAMAAAAAAAAAAAAAAAECAAQRAxIh/9oADAMBAAIRAxEAPwAzS6nEeCZXKrB3vdGQo5Iy3b/FZpZMXVypZZl0iEv1+DtqmJodRjDLssjPabcE7LJJYt7CrX4mGkz/2Q=="
+                },
+                "width": 1,
+                "height": 0.625
+              }
+            }
+          },
+          {
+            "id": "51664084",
+            "title": "Earned Media/Stunts",
+            "slug": "earned-media-stunts",
+            "wysiwyg": "<p><span>Our fascination with the future informs our ideas and keeps our work connected to important moments in culture. Those moments drive opportunities to create or hijack a cultural memory, to elevate a brand ethos, campaign, or platform and to earn audience favor and attention along the way. At ENGINE SHOP, we sit on the edge of our collective seats eagerly looking for the moments that will matter and proactively crafting the ideas that will break through for you and for the consumers you want to reach. </span></p>",
+            "image": {
+              "alt": "Tim The Tat Man",
+              "data": {
+                "images": {
+                  "sources": [],
+                  "fallback": {
+                    "src": "https://www.datocms-assets.com/50442/1632156929-bl6-tttm.jpg?auto=format&w=1400",
+                    "srcSet": "https://www.datocms-assets.com/50442/1632156929-bl6-tttm.jpg?auto=format&dpr=0.54&w=1400 750w,\nhttps://www.datocms-assets.com/50442/1632156929-bl6-tttm.jpg?auto=format&dpr=0.78&w=1400 1080w,\nhttps://www.datocms-assets.com/50442/1632156929-bl6-tttm.jpg?auto=format&dpr=0.98&w=1400 1366w,\nhttps://www.datocms-assets.com/50442/1632156929-bl6-tttm.jpg?auto=format&w=1400 1400w",
+                    "sizes": "100vw"
+                  }
+                },
+                "layout": "fullWidth",
+                "placeholder": {
+                  "fallback": "data:image/jpg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/2wCEAAoHBwgHBgoICAgLCgoLDhgQDg0NDh0VFhEdJR8tJC0bIiEmKzc3Jik0LS0dNEExNDk7Pj4yHSJEPUU9PSsxNS8BCgsLDg0OHBAQHDsoIhw7Oy87LzsvOzs7LzsvOy8vOy87Lzs7Ozs7Ozs7Ly8vOzs7Ozs7OzsvOzs7Ozs7Ly87O//AABEIAA8AGAMBIgACEQEDEQH/xAAYAAADAQEAAAAAAAAAAAAAAAABBQYEAP/EAB4QAAEEAwADAAAAAAAAAAAAAAEAAgMRBAUGEiEx/8QAFwEAAwEAAAAAAAAAAAAAAAAAAQIDAP/EABwRAAEDBQAAAAAAAAAAAAAAAAEAAgMREiIxQf/aAAwDAQACEQMRAD8AO36WHFx3PeaACmsbtoJskM8XCz6JCqtxzMGTAWPAIISPX8PhxT+dWR8s2rxmMMy2s2vU3x96wsBXLQOfiYwAUilFiBX/2Q=="
+                },
+                "width": 1,
+                "height": 0.625
+              }
+            }
+          },
+          {
+            "id": "51664040",
+            "title": "Sponsorship and Partnership",
+            "slug": "sponsorship-and-partnership",
+            "wysiwyg": "<p><span>Insights, intelligence, and trends drive our Sponsorship and Partnership engagement strategies and platforms at ENGINE SHOP. We optimize and enhance the value of your strategic partnerships and turn those deals into opportunities for brand reach, growth, funnel activation and impassioned product engagement. We ensure you show up where you want and need to be with a presence that shifts and cements brand perception for longer than an event or game.</span></p>",
+            "image": {
+              "alt": "Mercedes-Benz Stadium",
+              "data": {
+                "images": {
+                  "sources": [],
+                  "fallback": {
+                    "src": "https://www.datocms-assets.com/50442/1632160636-mercedes-benz-stadium1.jpg?auto=format&w=1429",
+                    "srcSet": "https://www.datocms-assets.com/50442/1632160636-mercedes-benz-stadium1.jpg?auto=format&dpr=0.53&w=1429 750w,\nhttps://www.datocms-assets.com/50442/1632160636-mercedes-benz-stadium1.jpg?auto=format&dpr=0.76&w=1429 1080w,\nhttps://www.datocms-assets.com/50442/1632160636-mercedes-benz-stadium1.jpg?auto=format&dpr=0.96&w=1429 1366w,\nhttps://www.datocms-assets.com/50442/1632160636-mercedes-benz-stadium1.jpg?auto=format&w=1429 1429w",
+                    "sizes": "100vw"
+                  }
+                },
+                "layout": "fullWidth",
+                "placeholder": {
+                  "fallback": "data:image/jpg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/2wCEAAoHBwgHBgoICAgLDQoLFyINDhkVEykVDhYRFxUgGB4fFiEdKy0jHR0oHRUWJDUlKC0vMjIyGSI4PTcwPCsxMi8BCgsLDg0OHBAQHDsoIig7Ozs7Ozs7Ozs7Ozs7LzsvNTsvOzs7Ozs7Oy87OzsvLy87Ly8vLy81NS8vLy8vLy8vL//AABEIAA4AGAMBIgACEQEDEQH/xAAaAAABBQEAAAAAAAAAAAAAAAAEAQIDBQYA/8QAHhAAAgICAgMAAAAAAAAAAAAAAQQAAgMRBTESEyL/xAAXAQADAQAAAAAAAAAAAAAAAAADBAUC/8QAGxEAAgIDAQAAAAAAAAAAAAAAAQIAEQMSIQT/2gAMAwEAAhEDEQA/AMsxzFLDUcufd9CCtoY8Y8hCuM61BKVxi5UHqDGmHZG8yVaEkdRZYMpY89NWE6YYq5sRbLlfbk//2Q=="
+                },
+                "width": 1,
+                "height": 0.625
+              }
+            }
+          },
+          {
+            "id": "51664159",
+            "title": "Entertainment Marketing",
+            "slug": "entertainment-marketing",
+            "wysiwyg": "<p><span>Sometimes being remembered tomorrow means being embedded in the most memorable stories of today. At ENGINE SHOP, we place brands in authentic key moments with culturally relevant people and entertainment properties.  Whether through our work in promotions, product placement and integrations, or ambassadors, we drive brand equity and affinity where your audiences look for things they love.</span></p>",
+            "image": {
+              "alt": "Cinderella",
+              "data": {
+                "images": {
+                  "sources": [],
+                  "fallback": {
+                    "src": "https://www.datocms-assets.com/50442/1632248947-cinderella.png?auto=format&w=1400",
+                    "srcSet": "https://www.datocms-assets.com/50442/1632248947-cinderella.png?auto=format&dpr=0.54&w=1400 750w,\nhttps://www.datocms-assets.com/50442/1632248947-cinderella.png?auto=format&dpr=0.78&w=1400 1080w,\nhttps://www.datocms-assets.com/50442/1632248947-cinderella.png?auto=format&dpr=0.98&w=1400 1366w,\nhttps://www.datocms-assets.com/50442/1632248947-cinderella.png?auto=format&w=1400 1400w",
+                    "sizes": "100vw"
+                  }
+                },
+                "layout": "fullWidth",
+                "placeholder": {
+                  "fallback": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABwAAAAQCAMAAAAyEe/dAAAAAXNSR0IArs4c6QAAAwBQTFRFBggKBgkMNjQyBggLBwoNBwoOBgkLCAoPBQcIBgkNCQ0QP0JCPkFBQkRDQENCPEBANjs7Pz07BAcLCg4SLi0tCAsQDBMXPTg0AAkRQUJBQ0VFODw9Ki8xDhASEhgbBQgJMzc2EBUYGR4gJCYnDBATCBAUBxIZRUdGOD0+QUNDOT4/NjMxOTg2BAYIOTw8QD8+OTc0DA4QKzEyBgoONjY1NTk5MzQzOzg1MC8sKCkpJiorDxIUBQgMPDo4NC8sPzs4MjAuPDc1Cg8SFRkaODcxHyMlMDU1AAAELi8t4eLW4+TXOTQx1NnQGyEiAAcO4OLXHyIkLjIyKygnEAkZDBYbAQsSMSMdTy4Wsq+qWDEUCQwOQkJAR0lIODY0PDk2KisrPjw5Pz8+Qj88FhYXNjIvAQQHOzw8EBUXJy4yAwgMNjk5PTw6GyQpDRIVEhgcDhIVDxUXkZucydDNeYSHwsjF1trRx83HPTs4PDYzJS0wTUtBMzMwMDEwl5KA2NfEgH9wo6CNrKqYf3xsQDozAwYKJCgpJygnT1pb0tfRYWprOkhO1drUIisvytDJ6O3jEhkdprCv293TPDYy4+TZnainMi0rrre0ISUnEg4Py9LN297UEyEoLhoQ4uPYFhgaIh8e3uDWRCENExYaPzk2uMC8DgwOv8fCy9PMMD9GDh0klF8sxc7Iy9LMKBsTiEgVOyQZOUBBDQwPL0BHIR0cdk0rLS0sFSYuHS82yZVUPTAoX2doJzlALT9GZm9wHBobhlQos7m3NTEvJhcTSzIfNSIlDQwWZTgYOSMSHAknZm1uVFtcBhEXt8DBs7Gsi3FZxdDRom86hlcrSC0YXzcZGCIoUCkOFhMTGBUjGAwiJCMpCAMXKxYMiV08vMXFDgQdc1k9oHhMPikZXjkfloyFjnJTdEUiQVFZUiwWm6WnFA4NPxwKc2RSfEccVDEYoJaOXUFDLxcMMzg4jXx1uLSwkmQ2KBMfKR0bGQQvZDsbs6CPrYxys52OqqKZNBwSdUAbo3BBtKjIFAAAAdtJREFUGFcB0AEv/gAIHzwJAwMHR4mLjUyRSUpKT3V2dHFoZQMfAQcHAAAACQkGAQpHh45Pk51PoJpMiHJzbBIEBgYEBwoAAB8AAAMBB4SMlJakpqusp5mQik5pBwkJBgodHQAAHwAGAQkFBxgmqba3u7yyqJtVFhMHBQQDBxMTAAAfAwEEBQUVsxYmVMsYVRhOJlQlCgczBAVuHiEAAB8ACQQEFVPE1yVV1MrJvbq1JCUVO2Mzb3kiIgAACAMECQFTxdr3B/Ho3czPwLmxJBUWIUJDRHqDAAAfBgcFB8jY9u/y/PNYWM3Ov7SlCm1nIXuAfn0AHy0tAzwf3vXs//r7+e7j3NC4qphCEztwSIKBfwBaMTEdok3Z5/D96v7r5t9Xw66hJEMeHk1QOESGAEUjOhxGsFHVWe349OTg0VavnBYiOjIyMhwgNoUAOV8UFBRAUsLbV1nl4tPGVp+POUYbKBsQNWrxUQA4QCtkPj6VUr7W6eHSx62eI3wgGyoqDCkPLi41ACsCAjBBS3iSS8EUI1BFl0g0ZgsNJxoNKQwMDw8AXQICN14wPzdBFxejFxc/EWEZDSdcJxoNDgsPKAA2AjQsLGBiERERPXc9ay8vWxkZKQspDgsMGxAQAnuVxjwdyiEAAAAASUVORK5CYII="
+                },
+                "width": 1,
+                "height": 0.625
+              }
+            }
+          },
+          {
+            "id": "51664122",
+            "title": "Gaming and Esports",
+            "slug": "esports-marketing",
+            "wysiwyg": "<p><span>2.6 Billion worldwide. 47% of whom are parents. Disposable income 2x the norm. Hard to reach through TV or traditional media. And Google reported them as “uber consumers.” ENGINE SHOP’s curiosity about gaming people and culture empowers us to create award-winning platforms that bridge brands to this dynamic, influential and loyal audience that can carry your brand across generations.  </span></p>",
+            "image": {
+              "alt": "NHL Gaming",
+              "data": {
+                "images": {
+                  "sources": [],
+                  "fallback": {
+                    "src": "https://www.datocms-assets.com/50442/1632250147-nhl-gaming.jpg?auto=format&dpr=0.47&w=1614",
+                    "srcSet": "https://www.datocms-assets.com/50442/1632250147-nhl-gaming.jpg?auto=format&dpr=0.47&w=1614 750w,\nhttps://www.datocms-assets.com/50442/1632250147-nhl-gaming.jpg?auto=format&dpr=0.67&w=1614 1080w,\nhttps://www.datocms-assets.com/50442/1632250147-nhl-gaming.jpg?auto=format&dpr=0.85&w=1614 1366w,\nhttps://www.datocms-assets.com/50442/1632250147-nhl-gaming.jpg?auto=format&w=1614 1614w",
+                    "sizes": "100vw"
+                  }
+                },
+                "layout": "fullWidth",
+                "placeholder": {
+                  "fallback": "data:image/jpg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/2wCEAAoHBwgHBgoICAgLCgoLDhgQGA0NDh0VFhEVIx4lHRkfIiEmKzQsHR06JSUgJUEtQC0wNT4yHSI9PU8wPDc9MkIBCgsLDg0OHBAQHDsoIig7Ozs7Njs7Ozs8Ozs7Ozs2Oy87Njs7Oy81Ly8vLzU7LzU1LzU1Ly8yLy8vNS8vLzUvL//AABEIABEAGAMBIgACEQEDEQH/xAAZAAACAwEAAAAAAAAAAAAAAAAABgEFBwL/xAAkEAAABQIFBQAAAAAAAAAAAAAAAQIDBRExBBMhM1EGEhYicf/EABcBAQEBAQAAAAAAAAAAAAAAAAQCAwH/xAAdEQACAgIDAQAAAAAAAAAAAAAAAQIDITISMTMR/9oADAMBAAIRAxEAPwDK42FxGPXp6J5Mhf8Ag7imq5qq/B10/j2iUVrhxRJM5NysN6pT4YKlH4ZdKwb8YdVH3o5pYAY+qcY040pJUqeggHbaeSo1toooXfMNiNoAA6jzOz2Fqc3CEgACX7CF0j//2Q=="
+                },
+                "width": 1,
+                "height": 0.625
+              }
+            }
+          }
+        ]
+      },
+      "services": {
+        "schema": null,
+        "seo": {
+          "title": "EngineShop – Services",
+          "desc": null,
+          "card": "summary_large_image",
+          "image": {
+            "url": "https://www.datocms-assets.com/50442/1631018481-opengraph-services.jpg?auto=format"
+          }
+        },
+        "heroTitle": "Services",
+        "heroScript": "Our",
+        "heroExcerpt": "Our services span a wide variety of audiences and capabilities, but all of them are rooted in inspiring ideas, human connection, and writing your brand’s future.  ",
+        "text": "Curious about a future together?",
+        "textLink": "Let us know",
+        "link": { "slug": "contact" },
+        "image": {
+          "data": {
+            "images": {
+              "sources": [],
+              "fallback": {
+                "src": "https://www.datocms-assets.com/50442/1632247892-ef3ef97b-0483-4e44-b741-b778bca2c38d.jpeg?auto=format&w=1200",
+                "srcSet": "https://www.datocms-assets.com/50442/1632247892-ef3ef97b-0483-4e44-b741-b778bca2c38d.jpeg?auto=format&dpr=0.63&w=1200 750w,\nhttps://www.datocms-assets.com/50442/1632247892-ef3ef97b-0483-4e44-b741-b778bca2c38d.jpeg?auto=format&dpr=0.9&w=1200 1080w,\nhttps://www.datocms-assets.com/50442/1632247892-ef3ef97b-0483-4e44-b741-b778bca2c38d.jpeg?auto=format&w=1200 1200w",
+                "sizes": "100vw"
+              }
+            },
+            "layout": "fullWidth",
+            "placeholder": {
+              "fallback": "data:image/jpg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/2wCEAAoHBwgHBg8JCRALDw8QDg8QCg4NCxEJEgcYFxMZGBYVFiEaHysjGh0oHRUWJDUlKC0vMjIyGSI4PTcwPCsxMi8BCgsLDg0OHBAOHS8cIikyNS8vLy8vLy8vLy8vLy8vLy8vLy8vLy8vLy8vLy8vLy8vLy8vLy8vLy8vLy8vLy8vL//AABEIABEAGAMBIgACEQEDEQH/xAAZAAEAAgMAAAAAAAAAAAAAAAAABQYBAwT/xAAdEAABAwUBAAAAAAAAAAAAAAAABAUSAQIDETEh/8QAFgEBAQEAAAAAAAAAAAAAAAAAAgMB/8QAGBEBAQEBAQAAAAAAAAAAAAAAAQACMRH/2gAMAwEAAhEDEQA/ANjhSdmiKwI7pbJ5Ti8MpE1LieMmam1WrLkmugCwuCKkQL0IIt0quG1DwwDCT2OHAATezv/Z"
+            },
+            "width": 1,
+            "height": 0.6673611111111111
+          },
+          "alt": "AMG Driving Academy"
+        }
+      }
+    },
+    "pageContext": {}
+  },
+  "staticQueryHashes": ["2423567904", "91581438"]
+}
