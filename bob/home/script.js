@@ -28804,10 +28804,7 @@
             i = r.env("editor");
           n ? i && e.remove() : (e.length && e.remove(), i || a.append(t));
         }
-        return (
-          (n.ready = function () {}),
-          n
-        );
+        return (n.ready = function () {}), n;
       })
     );
   },
@@ -37481,14 +37478,12 @@
               "network-only" !== p &&
               "no-cache" !== p
             ) {
-              var A = this.dataStore
-                .getCache()
-                .diff({
-                  query: M,
-                  variables: s,
-                  returnPartialData: !0,
-                  optimistic: !1,
-                });
+              var A = this.dataStore.getCache().diff({
+                query: M,
+                variables: s,
+                returnPartialData: !0,
+                optimistic: !1,
+              });
               (h = !A.complete || "cache-and-network" === p), (i = A.result);
             }
             var b = h && "cache-only" !== p && "standby" !== p;
@@ -37611,13 +37606,11 @@
                       else if (m && m.data && !b) (E = m.data), (v = !1);
                       else {
                         var _ = r.getQuery(e).document,
-                          y = r.dataStore
-                            .getCache()
-                            .diff({
-                              query: _,
-                              variables: c.previousVariables || c.variables,
-                              optimistic: !0,
-                            });
+                          y = r.dataStore.getCache().diff({
+                            query: _,
+                            variables: c.previousVariables || c.variables,
+                            optimistic: !0,
+                          });
                         (E = y.result), (v = !y.complete);
                       }
                       var O = void 0;
@@ -37921,14 +37914,12 @@
             if (c)
               return Object(a.maybeDeepFreeze)({ data: c.result, partial: !1 });
             try {
-              var u = this.dataStore
-                .getCache()
-                .read({
-                  query: i,
-                  variables: r,
-                  previousResult: o ? o.data : void 0,
-                  optimistic: t,
-                });
+              var u = this.dataStore.getCache().read({
+                query: i,
+                variables: r,
+                previousResult: o ? o.data : void 0,
+                optimistic: t,
+              });
               return Object(a.maybeDeepFreeze)({ data: u, partial: !1 });
             } catch (e) {
               return Object(a.maybeDeepFreeze)({ data: {}, partial: !0 });
@@ -53765,15 +53756,13 @@
         }
         function y(e, t, n) {
           if (
-            (t
-              .removeClass(M)
-              .css({
-                opacity: "",
-                transition: "",
-                transform: "",
-                width: "",
-                height: "",
-              }),
+            (t.removeClass(M).css({
+              opacity: "",
+              transition: "",
+              transform: "",
+              width: "",
+              height: "",
+            }),
             n.addClass(M).each(h.intro),
             r.redraw.up(),
             !e.intro)
