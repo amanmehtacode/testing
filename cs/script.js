@@ -24580,10 +24580,7 @@
             i = n.env("editor");
           r ? i && t.remove() : (t.length && t.remove(), i || s.append(e));
         }
-        return (
-          (r.ready = function () {}),
-          r
-        );
+        return (r.ready = function () {}), r;
       })
     );
   },
