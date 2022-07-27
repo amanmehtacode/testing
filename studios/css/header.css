@@ -18,7 +18,7 @@ header .logo {
   pointer-events: all;
 }
 header .logo img {
-  max-height: 40px;
+  max-height: 45px;
 }
 header .hamburger {
   float: right;
