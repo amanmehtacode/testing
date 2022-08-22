@@ -242,92 +242,6 @@ input.w-button {
 html[data-w-dynpage] [data-w-cloak] {
   color: transparent !important;
 }
-.w-webflow-badge,
-.w-webflow-badge * {
-  position: static;
-  left: auto;
-  top: auto;
-  right: auto;
-  bottom: auto;
-  z-index: auto;
-  display: block;
-  visibility: visible;
-  overflow: visible;
-  overflow-x: visible;
-  overflow-y: visible;
-  box-sizing: border-box;
-  width: auto;
-  height: auto;
-  max-height: none;
-  max-width: none;
-  min-height: 0;
-  min-width: 0;
-  margin: 0;
-  padding: 0;
-  float: none;
-  clear: none;
-  border: 0 transparent;
-  border-radius: 0;
-  background: 0 0;
-  box-shadow: none;
-  opacity: 1;
-  transform: none;
-  transition: none;
-  direction: ltr;
-  font-family: inherit;
-  font-weight: inherit;
-  color: inherit;
-  font-size: inherit;
-  line-height: inherit;
-  font-style: inherit;
-  font-variant: inherit;
-  text-align: inherit;
-  letter-spacing: inherit;
-  text-decoration: inherit;
-  text-indent: 0;
-  text-transform: inherit;
-  list-style-type: disc;
-  text-shadow: none;
-  font-smoothing: auto;
-  vertical-align: baseline;
-  cursor: inherit;
-  white-space: inherit;
-  word-break: normal;
-  word-spacing: normal;
-  word-wrap: normal;
-}
-.w-webflow-badge {
-  position: fixed !important;
-  display: inline-block !important;
-  visibility: visible !important;
-  z-index: 2147483647 !important;
-  top: auto !important;
-  right: 12px !important;
-  bottom: 12px !important;
-  left: auto !important;
-  color: #aaadb0 !important;
-  background-color: #fff !important;
-  border-radius: 3px !important;
-  padding: 6px 8px 6px 6px !important;
-  font-size: 12px !important;
-  opacity: 1 !important;
-  line-height: 14px !important;
-  text-decoration: none !important;
-  transform: none !important;
-  margin: 0 !important;
-  width: auto !important;
-  height: auto !important;
-  overflow: visible !important;
-  white-space: nowrap;
-  box-shadow: 0 0 0 1px rgba(0, 0, 0, 0.1), 0 1px 3px rgba(0, 0, 0, 0.1);
-  cursor: pointer;
-}
-.w-webflow-badge > img {
-  display: inline-block !important;
-  visibility: visible !important;
-  opacity: 1 !important;
-  vertical-align: middle !important;
-}
 h1,
 h2,
 h3,
@@ -4282,8 +4196,29 @@ strong {
 .intro-card-code-indented {
   margin-left: 28px;
 }
-.code-color {
-  color: #e62615;
+.code-color-red {
+  color: red;
+}
+.code-color-blue {
+  color: rgb(68, 68, 255);
+}
+.code-color-purple {
+  color: rgb(179, 0, 179);
+}
+.code-color-white {
+  color: white;
+}
+.code-color-yellow {
+  color: rgb(255, 255, 0);
+}
+.code-color-green {
+  color: rgb(153, 255, 0);
+}
+.code-color-orange {
+  color: orange;
+}
+.code-color-teal {
+  color: rgb(0, 255, 255);
 }
 .intro-card-scale-wrap {
   display: -webkit-box;
