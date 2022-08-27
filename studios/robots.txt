@@ -1,6 +1,0 @@
-User-Agent: *
-Disallow:
-Sitemap: https://www.moritz-petersen.de/sitemap.xml
-
-Sitemap: https://www.moritz-petersen.de/sitemap.xml
-
